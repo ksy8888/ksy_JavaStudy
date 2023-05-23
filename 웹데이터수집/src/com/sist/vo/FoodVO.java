@@ -13,7 +13,7 @@ package com.sist.vo;
  TIME       VARCHAR2(20)
  MENU       CLOB
  GOOD       NUMBER
- SOSO       NUMBER
+ SOSO       NUMBER 
  BAD        NUMBER
  POSTER     NOT NULL VARCHAR2(4000)
  */
