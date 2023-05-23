@@ -83,7 +83,7 @@ public class FoodDAO {
 	public static FoodDAO newInstance() {
 		
 		//newInstance(), getInstance() => 싱글턴
-		if(dao!=null)
+		if(dao==null)
 			dao = new FoodDAO();	//생성안되어있으면 생성해서 사용
 		return dao;		//되어있으면 그냥 사용
 	}
