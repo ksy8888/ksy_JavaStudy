@@ -11,7 +11,7 @@ public class t2 {
 		int N = Integer.parseInt(br.readLine()); //한줄 읽기 ***N은과목수
 		
 		//
-		StringTokenizer st = new StringTokenizer(br.readLine()," "); //공백 제거 ***st는점수들
+		StringTokenizer st = new StringTokenizer(br.readLine()); //공백 제거 ***st는점수들
 		
 		//변수 st는 정수가 아니라 StringTokenizer 객체이기 때문에 오류남.
 		//이 경우 st.countTokens()를 사용하여 토큰의 수 얻음
