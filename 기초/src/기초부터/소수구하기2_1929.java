@@ -30,6 +30,7 @@ public class 소수구하기2_1929 {
 				//출력
 				 bw.write(String.valueOf(i+"\n"));
 			} else {
+				//System.out.println("continue..."+i);
 				continue;
 			}
 		}
@@ -43,9 +44,9 @@ public class 소수구하기2_1929 {
 		} 
 		for(int i=2; i<=(int)Math.sqrt(num); i++) {
 			//i%2==0
-			//소수는 1과 자기 자신 외에는 어떤 수로도 나누어 떨어지지 않는 수를 말함.
+			//소수는 1과 자기 자신 외에는 어떤 수로도 나누어 떨어지지 않는 수를 말함. ***
 			//num이 i로 나누어 떨어질 때 false를 반환하라"는 의미로, num이 i로 나누어 떨어진다는 것은 소수가 아니라는 뜻
-			if(num%i==0) {
+			if(num%i==0) {	// ***
 				return false;
 			}
 			

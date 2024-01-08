@@ -11,7 +11,7 @@ public class 연산_1000 {
 	public static void main(String[] args) throws Exception {
 		// TODO Auto-generated method stub
 	BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
-	StringTokenizer st = new StringTokenizer(br.readLine());
+	StringTokenizer st = new StringTokenizer(br.readLine()); //문자열을 토큰(token)으로 분리
 	
 	int[] sNum = new int[2];
 	sNum[0] = Integer.parseInt(st.nextToken());
