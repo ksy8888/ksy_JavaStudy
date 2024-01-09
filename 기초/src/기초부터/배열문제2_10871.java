@@ -13,7 +13,7 @@ public class 배열문제2_10871 {
 		 
 		StringTokenizer st = new StringTokenizer(br.readLine());
 		
-		int N = Integer.parseInt(st.nextToken());
+		int N = Integer.parseInt(st.nextToken()); 
 		int X = Integer.parseInt(st.nextToken());
 		
 		int[] A = new int[N];
