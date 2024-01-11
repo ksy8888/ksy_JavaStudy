@@ -1,4 +1,4 @@
-package 기초부터;
+package 배열;
 
 import java.io.*;
 import java.util.*;
