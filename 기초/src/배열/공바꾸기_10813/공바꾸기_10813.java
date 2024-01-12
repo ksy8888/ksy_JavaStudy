@@ -24,8 +24,8 @@ public class 공바꾸기_10813 {
 			
 			for(int j=0; j<M; j++) {
 				st = new StringTokenizer(br.readLine());
-				int I = Integer.parseInt(st.nextToken()); //1   //3 //1
-				int J = Integer.parseInt(st.nextToken()); //2   //4 //4
+				int I = Integer.parseInt(st.nextToken()); //1   //3 
+				int J = Integer.parseInt(st.nextToken()); //2   //4 
 				int temp = ba[I-1]; //temp=> ba[0]
 				ba[I-1] = ba[J-1];  //ba[0]=> ba[1]
 				ba[J-1] = temp;		//ba[1] => ba[0]
